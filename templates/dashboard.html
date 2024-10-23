@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            padding: 1rem 2rem;
+            background: linear-gradient(90deg, #4e54c8, #8f94fb);
+        }
+        .navbar-brand {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .btn-logout {
+            background-color: #ffffff;
+            color: #4e54c8;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+        .hero-section {
+            background: linear-gradient(135deg, #89f7fe, #66a6ff);
+            padding: 3rem;
+            text-align: center;
+            color: #fff;
+            border-bottom-left-radius: 50% 20%;
+            border-bottom-right-radius: 50% 20%;
+        }
+        .hero-section h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-top: 10px;
+        }
+        .btn-custom {
+            font-size: 1.25rem;
+            padding: 0.75rem 2rem;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        .btn-custom:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .btn-predict {
+            background-color: #4e54c8;
+            color: white;
+        }
+        .btn-analysis {
+            background-color: #66a6ff;
+            color: white;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #4e54c8;
+        }
+        .card-text {
+            font-size: 1.75rem;
+            font-weight: bold;
+        }
+        .table {
+            margin-top: 40px;
+        }
+        .table thead th {
+            background-color: #4e54c8;
+            color: white;
+            font-weight: bold;
+        }
+        .table tbody td {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        #chart-container {
+            margin-top: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        h3 {
+            color: #4e54c8;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hospital Dashboard</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/logout" class="btn btn-logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1>Welcome to the Hospital Readmission Dashboard</h1>
+        <p>Manage patient readmissions and access predictive analytics in one place.</p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container mt-5">
+        <!-- Quick Links -->
+        <div class="text-center mt-5">
+            <a href="/patient_info" class="btn btn-custom btn-predict me-3 mb-4">Make Predictions</a>
+            <a href="/analysis" class="btn btn-custom btn-analysis mb-4">View Analysis</a>
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="row mt-5 text-center">
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <h5 class="card-title">Total Predictions</h5>
+                    <p class="card-text">993</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <h5 class="card-title">Predicted Readmissions</h5>
+                    <p class="card-text">398</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <h5 class="card-title">Prediction Accuracy</h5>
+                    <p class="card-text">80%</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Predictions Table -->
+        <h3 class="mt-5">Recent Predictions</h3>
+        <table class="table table-striped mt-3">
+            <thead>
+                <tr>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Outcome</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>45</td>
+                    <td>Male</td>
+                    <td>Stable</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>Female</td>
+                    <td>Recovered</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Readmission Trends Chart -->
+        <h3 class="mt-5">Readmission Trends</h3>
+        <div id="chart-container">
+            <canvas id="readmissionChart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Chart.js logic for Readmission Trends
+        const ctx = document.getElementById('readmissionChart').getContext('2d');
+        const readmissionChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+                datasets: [{
+                    label: 'Readmissions',
+                    data: [12, 19, 3, 5, 2, 3],
+                    backgroundColor: [
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

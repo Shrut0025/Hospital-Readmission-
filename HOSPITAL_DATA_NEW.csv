@@ -1,0 +1,997 @@
+age,gender,condition,procedure,time_in_hospital,blood_pressure,freq_of_admission,glucose_test,smoking_alcohol_drug,outcome,readmitted
+45,Female,Heart Disease,Angioplasty,5,normal,13,normal,Yes,Recovered,Yes
+60,Male,Diabetes,Insulin Therapy,3,low,2,high,No,Stable,Yes
+32,Female,Fractured Arm,X-Ray and Splint,1,high,7,low,Yes,Recovered,No
+70,Male,Stroke,CT Scan and Medication,7,low,6,normal,No,Recovered,Yes
+67,Female,Cancer,Surgery and Chemotherapy,10,normal,6,high,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,2,high,11,low,Yes,Stable,Yes
+55,Female,Appendicitis,Appendectomy,4,normal,3,normal,No,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,6,high,13,high,Yes,Recovered,Yes
+70,Female,Heart Attack,Cardiac Catheterization,8,normal,12,normal,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,3,low,12,low,No,Recovered,No
+48,Female,Respiratory Infection,Antibiotics and Rest,2,normal,6,normal,Yes,Recovered,No
+65,Male,Prostate Cancer,Radiation Therapy,9,high,11,high,No,Recovered,Yes
+30,Female,Childbirth,Delivery and Postnatal Care,3,normal,1,normal,Yes,Stable,No
+32,Male,Kidney Stones,Lithotripsy,4,low,3,high,Yes,Recovered,Yes
+58,Female,Osteoarthritis,Physical Therapy and Pain Management,5,normal,5,low,No,Recovered,No
+55,Female,Heart Disease,Angioplasty,6,high,5,normal,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,6,low,1,low,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,2,normal,15,high,Yes,Recovered,Yes
+45,Male,Stroke,CT Scan and Medication,8,high,13,normal,Yes,Recovered,Yes
+53,Female,Cancer,Surgery and Chemotherapy,15,normal,4,low,No,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,3,low,1,normal,Yes,Stable,No
+60,Female,Appendicitis,Appendectomy,5,high,15,high,No,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,7,normal,11,low,Yes,Recovered,No
+67,Female,Heart Attack,Cardiac Catheterization,9,low,3,high,No,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,2,normal,8,normal,Yes,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,3,high,6,low,Yes,Stable,No
+67,Male,Prostate Cancer,Radiation Therapy,10,low,14,normal,No,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,4,normal,15,high,Yes,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,5,high,12,normal,No,Recovered,Yes
+34,Female,Osteoarthritis,Physical Therapy and Pain Management,6,normal,4,low,Yes,Stable,No
+48,Female,Heart Disease,Angioplasty,7,low,8,high,No,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,5,high,6,normal,Yes,Stable,No
+30,Female,Fractured Arm,X-Ray and Splint,3,normal,27,low,Yes,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,15,low,8,high,No,Stable,Yes
+98,Female,Cancer,Surgery and Chemotherapy,12,normal,16,normal,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,4,high,13,low,No,Stable,Yes
+45,Female,Appendicitis,Appendectomy,4,low,24,normal,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,8,normal,20,high,No,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,10,high,12,high,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,3,low,6,normal,Yes,Recovered,No
+100,Female,Respiratory Infection,Antibiotics and Rest,4,high,8,low,No,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,11,normal,12,normal,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,5,low,1,high,No,Recovered,No
+55,Male,Kidney Stones,Lithotripsy,6,high,11,low,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,6,normal,6,normal,No,Stable,No
+55,Female,Heart Disease,Angioplasty,8,low,13,high,Yes,Recovered,Yes
+45,Male,Diabetes,Insulin Therapy,6,normal,24,normal,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,4,high,9,low,No,Recovered,No
+78,Male,Stroke,CT Scan and Medication,10,normal,5,high,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,15,low,7,low,No,Recovered,Yes
+89,Male,Hypertension,Medication and Counseling,5,high,13,normal,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,7,normal,16,high,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,9,low,7,normal,No,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,11,normal,12,low,Yes,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,4,high,13,high,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,5,low,20,normal,Yes,Stable,Yes
+23,Male,Prostate Cancer,Radiation Therapy,12,normal,5,low,Yes,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,8,high,13,normal,No,Recovered,No
+50,Male,Kidney Stones,Lithotripsy,7,low,15,high,Yes,Recovered,Yes
+48,Female,Heart Disease,Angioplasty,9,normal,5,normal,No,Recovered,No
+65,Male,Diabetes,Insulin Therapy,7,high,15,high,Yes,Recovered,Yes
+30,Female,Fractured Arm,X-Ray and Splint,5,low,8,low,No,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,11,high,12,normal,Yes,Stable,No
+55,Female,Cancer,Surgery and Chemotherapy,14,normal,5,low,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,6,low,15,high,No,Stable,Yes
+45,Female,Appendicitis,Appendectomy,4,normal,8,normal,Yes,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,10,high,5,normal,Yes,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,12,normal,11,low,No,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,5,low,6,high,Yes,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,6,high,24,normal,No,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,13,normal,15,low,Yes,Recovered,Yes
+30,Female,Childbirth,Delivery and Postnatal Care,15,low,6,normal,No,Recovered,No
+55,Male,Kidney Stones,Lithotripsy,8,high,15,high,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,9,normal,12,low,Yes,Recovered,Yes
+55,Female,Heart Disease,Angioplasty,10,low,10,normal,No,Recovered,No
+62,Male,Diabetes,Insulin Therapy,8,normal,2,high,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,6,high,3,normal,No,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,12,low,13,high,Yes,Recovered,No
+53,Female,Cancer,Surgery and Chemotherapy,15,normal,4,low,Yes,Recovered,No
+72,Male,Hypertension,Medication and Counseling,7,high,15,normal,No,Recovered,Yes
+60,Female,Appendicitis,Appendectomy,9,normal,5,high,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,11,low,11,low,No,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,13,high,5,normal,Yes,Stable,Yes
+13,Male,Allergic Reaction,Epinephrine Injection,6,normal,8,high,No,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,7,low,5,normal,Yes,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,14,high,15,low,Yes,Stable,No
+35,Female,Childbirth,Delivery and Postnatal Care,8,normal,22,high,No,Recovered,Yes
+80,Male,Kidney Stones,Lithotripsy,9,normal,12,normal,Yes,Recovered,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,10,low,27,low,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,11,high,15,high,No,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,9,normal,3,normal,Yes,Stable,No
+30,Female,Fractured Arm,X-Ray and Splint,7,low,12,normal,No,Recovered,No
+70,Male,Stroke,CT Scan and Medication,13,high,1,low,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,16,normal,7,normal,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,8,normal,4,high,No,Stable,No
+45,Female,Appendicitis,Appendectomy,10,low,4,low,Yes,Stable,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,12,normal,14,high,No,Stable,No
+56,Male,Heart Attack,Cardiac Catheterization,14,high,8,normal,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,7,low,5,low,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,8,high,15,normal,No,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,15,normal,8,high,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,9,normal,10,normal,No,Recovered,No
+55,Male,Kidney Stones,Lithotripsy,10,low,12,high,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,11,high,11,low,Yes,Stable,Yes
+78,Female,Heart Disease,Angioplasty,12,normal,28,normal,No,Recovered,No
+62,Male,Diabetes,Insulin Therapy,10,low,7,high,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,8,high,10,low,No,Recovered,No
+78,Male,Stroke,CT Scan and Medication,14,normal,8,normal,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,17,low,29,high,No,Stable,Yes
+72,Male,Hypertension,Medication and Counseling,9,normal,15,low,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,11,high,8,normal,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,13,normal,3,high,No,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,15,low,8,normal,Yes,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,8,high,15,low,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,9,normal,15,high,Yes,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,16,normal,19,low,No,Stable,No
+35,Female,Childbirth,Delivery and Postnatal Care,10,low,15,normal,Yes,Stable,Yes
+50,Male,Kidney Stones,Lithotripsy,11,high,30,high,Yes,Stable,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,12,normal,14,normal,No,Stable,No
+65,Female,Diabetes,Insulin Therapy,11,low,4,low,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,9,normal,5,high,Yes,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,15,high,8,normal,No,Stable,No
+55,Female,Cancer,Surgery and Chemotherapy,18,high,3,low,Yes,Recovered,No
+68,Male,Hypertension,Medication and Counseling,10,normal,3,normal,No,Stable,Yes
+45,Female,Appendicitis,Appendectomy,12,low,10,high,Yes,Stable,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,14,high,7,high,Yes,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,16,normal,14,low,No,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,9,low,5,normal,Yes,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,10,normal,11,high,No,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,17,high,4,low,Yes,Stable,Yes
+78,Female,Childbirth,Delivery and Postnatal Care,11,normal,10,normal,Yes,Stable,No
+55,Male,Kidney Stones,Lithotripsy,12,low,21,high,No,Recovered,No
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,13,high,6,low,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,14,low,11,normal,No,Recovered,No
+62,Male,Diabetes,Insulin Therapy,12,normal,11,high,Yes,Stable,Yes
+45,Female,Fractured Arm,X-Ray and Splint,10,high,2,low,Yes,Recovered,No
+78,Male,Stroke,CT Scan and Medication,16,normal,10,normal,No,Stable,No
+53,Female,Cancer,Surgery and Chemotherapy,19,low,14,high,Yes,Stable,Yes
+72,Male,Hypertension,Medication and Counseling,11,high,9,low,No,Stable,No
+60,Female,Appendicitis,Appendectomy,13,low,10,normal,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,15,normal,8,high,Yes,Stable,Yes
+56,Female,Heart Attack,Cardiac Catheterization,17,high,20,normal,No,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,10,low,11,low,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,11,normal,21,high,No,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,18,high,3,normal,Yes,Stable,Yes
+50,Female,Childbirth,Delivery and Postnatal Care,5,normal,11,low,Yes,Recovered,No
+50,Male,Kidney Stones,Lithotripsy,13,low,4,normal,No,Recovered,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,14,high,7,high,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,15,normal,7,high,No,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,13,low,3,low,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,11,normal,10,normal,Yes,Recovered,Yes
+90,Male,Stroke,CT Scan and Medication,17,high,12,high,No,Stable,No
+55,Female,Cancer,Surgery and Chemotherapy,20,low,11,low,Yes,Stable,Yes
+68,Male,Hypertension,Medication and Counseling,12,high,8,normal,No,Stable,Yes
+45,Female,Appendicitis,Appendectomy,14,normal,11,high,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,16,normal,30,low,Yes,Stable,Yes
+78,Female,Heart Attack,Cardiac Catheterization,18,low,8,high,No,Stable,No
+25,Male,Allergic Reaction,Epinephrine Injection,11,high,14,normal,Yes,Recovered,Yes
+78,Female,Respiratory Infection,Antibiotics and Rest,12,normal,3,low,No,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,19,low,6,normal,Yes,Stable,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,13,high,11,high,Yes,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,14,normal,3,low,No,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,15,low,5,high,Yes,Stable,No
+55,Female,Heart Disease,Angioplasty,16,normal,10,normal,No,Recovered,No
+78,Male,Diabetes,Insulin Therapy,5,high,7,normal,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,12,low,12,low,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,19,normal,3,high,No,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,21,high,14,normal,Yes,Stable,No
+72,Female,Hypertension,Medication and Counseling,13,normal,7,low,No,Stable,Yes
+60,Female,Appendicitis,Appendectomy,15,low,12,normal,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,17,high,7,high,Yes,Recovered,Yes
+89,Female,Heart Attack,Cardiac Catheterization,19,normal,11,low,No,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,12,low,13,high,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,13,high,6,normal,No,Stable,No
+67,Male,Prostate Cancer,Radiation Therapy,20,normal,2,normal,Yes,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,14,low,12,low,Yes,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,15,normal,10,high,No,Recovered,No
+99,Female,Osteoarthritis,Physical Therapy and Pain Management,16,high,9,normal,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,17,normal,13,low,No,Recovered,No
+30,Female,Fractured Arm,X-Ray and Splint,13,low,10,normal,Yes,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,19,high,4,high,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,22,normal,8,low,No,Recovered,No
+68,Male,Hypertension,Medication and Counseling,14,low,16,high,Yes,Stable,Yes
+95,Female,Appendicitis,Appendectomy,16,normal,10,normal,No,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,18,high,3,normal,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,20,high,13,low,Yes,Recovered,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,13,low,10,high,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,14,normal,7,normal,Yes,Stable,Yes
+58,Female,Prostate Cancer,Radiation Therapy,21,high,6,low,No,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,15,normal,6,high,Yes,Recovered,Yes
+34,Male,Kidney Stones,Lithotripsy,16,low,13,normal,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,17,high,9,normal,No,Stable,No
+55,Female,Heart Disease,Angioplasty,18,low,15,low,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,16,normal,7,high,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,14,high,5,normal,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,20,low,8,low,Yes,Stable,Yes
+56,Female,Cancer,Surgery and Chemotherapy,23,normal,15,normal,No,Recovered,No
+72,Male,Hypertension,Medication and Counseling,15,high,13,high,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,17,low,6,low,No,Recovered,No
+45,Male,Fractured Leg,Cast and Physical Therapy,19,normal,7,high,Yes,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,21,high,6,normal,Yes,Recovered,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,14,normal,30,high,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,15,low,13,low,Yes,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,22,high,10,normal,No,Recovered,No
+35,Female,Childbirth,Delivery and Postnatal Care,16,low,18,high,Yes,Recovered,Yes
+50,Female,Kidney Stones,Lithotripsy,17,normal,9,normal,Yes,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,18,high,13,low,No,Stable,No
+48,Female,Heart Disease,Angioplasty,16,low,15,high,Yes,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,17,normal,7,normal,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,15,high,7,low,Yes,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,21,normal,9,normal,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,24,low,3,high,No,Recovered,No
+68,Male,Hypertension,Medication and Counseling,16,high,13,low,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,18,normal,14,high,No,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,20,normal,7,normal,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,22,low,14,low,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,15,high,15,high,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,16,normal,9,normal,Yes,Stable,Yes
+58,Female,Prostate Cancer,Radiation Therapy,23,low,3,normal,No,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,17,high,8,low,Yes,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,18,normal,14,high,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,19,low,9,normal,No,Stable,No
+55,Female,Heart Disease,Angioplasty,20,normal,3,low,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,18,high,14,normal,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,16,high,16,high,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,22,low,11,low,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,25,normal,8,high,No,Recovered,No
+72,Male,Hypertension,Medication and Counseling,17,high,5,normal,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,19,low,7,low,No,Recovered,No
+45,Male,Fractured Leg,Cast and Physical Therapy,21,normal,6,normal,Yes,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,23,high,16,high,Yes,Recovered,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,16,low,13,normal,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,17,high,8,low,Yes,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,24,normal,4,high,No,Recovered,No
+34,Female,Childbirth,Delivery and Postnatal Care,18,low,5,normal,Yes,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,19,normal,8,low,Yes,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,20,high,11,high,No,Stable,No
+48,Female,Heart Disease,Angioplasty,21,high,5,normal,Yes,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,19,low,5,low,No,Stable,No
+70,Male,Stroke,CT Scan and Medication,23,normal,26,normal,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,26,high,6,high,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,18,low,18,low,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,20,high,9,high,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,22,normal,7,normal,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,24,normal,12,high,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,17,low,23,low,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,18,high,10,normal,No,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,25,normal,4,high,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,19,low,9,normal,No,Recovered,No
+55,Male,Kidney Stones,Lithotripsy,20,normal,8,low,Yes,Recovered,Yes
+45,Female,Osteoarthritis,Physical Therapy and Pain Management,21,high,9,high,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,22,low,8,normal,No,Recovered,No
+62,Female,Diabetes,Insulin Therapy,20,high,6,low,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,18,normal,16,normal,No,Recovered,No
+78,Male,Stroke,CT Scan and Medication,24,normal,6,high,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,27,high,7,low,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,19,low,14,high,No,Stable,No
+60,Female,Appendicitis,Appendectomy,21,normal,13,normal,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,23,high,14,normal,No,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,25,low,12,low,Yes,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,18,high,13,high,Yes,Recovered,Yes
+67,Female,Respiratory Infection,Antibiotics and Rest,19,normal,14,normal,No,Stable,No
+67,Male,Prostate Cancer,Radiation Therapy,26,low,5,low,Yes,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,20,normal,8,normal,No,Recovered,No
+50,Male,Kidney Stones,Lithotripsy,21,high,6,high,Yes,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,22,normal,15,low,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,23,low,11,high,No,Recovered,No
+65,Male,Diabetes,Insulin Therapy,21,high,5,normal,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,19,normal,3,low,No,Recovered,No
+70,Female,Stroke,CT Scan and Medication,25,low,8,normal,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,28,high,3,high,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,20,normal,18,low,No,Recovered,No
+45,Female,Appendicitis,Appendectomy,22,normal,16,high,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,24,low,12,normal,No,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,26,high,3,normal,Yes,Stable,Yes
+56,Male,Allergic Reaction,Epinephrine Injection,19,normal,9,low,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,20,low,8,high,No,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,27,normal,14,normal,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,21,high,3,low,No,Recovered,No
+55,Male,Kidney Stones,Lithotripsy,22,low,20,normal,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,23,normal,9,high,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,24,high,7,normal,No,Recovered,No
+62,Male,Diabetes,Insulin Therapy,22,high,4,low,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,20,normal,12,high,No,Recovered,No
+45,Male,Stroke,CT Scan and Medication,26,low,5,normal,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,29,high,15,low,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,21,normal,3,high,No,Stable,No
+60,Female,Appendicitis,Appendectomy,23,low,5,normal,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,25,normal,15,low,No,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,27,high,9,normal,Yes,Stable,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,21,low,20,high,Yes,Stable,Yes
+67,Female,Prostate Cancer,Radiation Therapy,28,high,6,high,No,Stable,No
+35,Female,Childbirth,Delivery and Postnatal Care,22,normal,15,low,Yes,Recovered,Yes
+50,Female,Kidney Stones,Lithotripsy,23,normal,8,normal,No,Recovered,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,24,low,5,high,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,25,high,11,low,Yes,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,23,normal,3,normal,No,Stable,No
+30,Female,Fractured Arm,X-Ray and Splint,21,low,5,high,Yes,Recovered,Yes
+70,Female,Stroke,CT Scan and Medication,27,high,13,normal,No,Stable,No
+99,Female,Cancer,Surgery and Chemotherapy,30,normal,10,low,Yes,Stable,Yes
+68,Male,Hypertension,Medication and Counseling,22,low,14,high,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,24,normal,6,normal,No,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,26,high,13,low,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,28,high,6,normal,No,Stable,No
+25,Male,Allergic Reaction,Epinephrine Injection,21,normal,3,high,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,22,low,17,normal,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,29,high,13,high,No,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,23,normal,11,low,Yes,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,24,low,10,normal,No,Recovered,No
+66,Female,Osteoarthritis,Physical Therapy and Pain Management,25,high,13,low,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,26,normal,12,high,Yes,Stable,Yes
+62,Male,Diabetes,Insulin Therapy,24,low,11,normal,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,22,normal,14,normal,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,28,high,6,low,No,Stable,No
+53,Female,Cancer,Surgery and Chemotherapy,31,normal,15,high,Yes,Stable,Yes
+72,Male,Hypertension,Medication and Counseling,23,low,29,normal,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,25,high,16,low,No,Recovered,No
+45,Male,Fractured Leg,Cast and Physical Therapy,27,normal,7,normal,Yes,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,29,low,6,high,No,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,22,normal,14,normal,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,23,high,13,low,Yes,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,30,high,12,high,No,Recovered,No
+35,Female,Childbirth,Delivery and Postnatal Care,24,low,9,normal,Yes,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,25,normal,7,low,No,Recovered,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,26,high,10,normal,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,27,low,8,high,Yes,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,25,high,14,low,No,Stable,No
+30,Female,Fractured Arm,X-Ray and Splint,23,normal,14,high,Yes,Stable,Yes
+70,Male,Stroke,CT Scan and Medication,29,low,20,normal,No,Stable,No
+55,Female,Cancer,Surgery and Chemotherapy,32,normal,10,low,Yes,Stable,Yes
+68,Male,Hypertension,Medication and Counseling,24,high,13,high,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,26,normal,5,normal,No,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,28,low,3,high,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,30,high,5,low,No,Stable,No
+25,Male,Allergic Reaction,Epinephrine Injection,23,normal,6,normal,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,24,low,12,high,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,31,high,9,normal,No,Stable,No
+32,Female,Childbirth,Delivery and Postnatal Care,25,normal,10,low,Yes,Stable,Yes
+55,Male,Kidney Stones,Lithotripsy,26,normal,9,high,No,Recovered,No
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,27,low,7,normal,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,28,high,10,low,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,26,normal,30,normal,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,24,low,15,high,Yes,Stable,Yes
+78,Male,Stroke,CT Scan and Medication,30,normal,27,normal,No,Stable,No
+53,Female,Cancer,Surgery and Chemotherapy,33,high,11,low,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,25,low,6,high,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,27,high,4,normal,No,Stable,No
+45,Male,Fractured Leg,Cast and Physical Therapy,29,normal,13,normal,Yes,Recovered,Yes
+55,Female,Heart Attack,Cardiac Catheterization,31,low,14,low,No,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,24,normal,7,high,Yes,Recovered,No
+67,Male,Prostate Cancer,Radiation Therapy,32,high,12,normal,Yes,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,26,low,16,low,No,Recovered,No
+50,Male,Kidney Stones,Lithotripsy,27,normal,6,normal,Yes,Recovered,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,28,high,12,high,No,Stable,Yes
+48,Female,Heart Disease,Angioplasty,29,high,7,low,Yes,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,27,low,5,high,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,25,normal,12,normal,No,Recovered,No
+70,Male,Stroke,CT Scan and Medication,31,high,11,high,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,34,normal,28,low,No,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,26,low,16,normal,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,28,high,9,high,Yes,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,30,normal,0,low,No,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,32,low,3,normal,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,25,normal,9,high,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,26,high,7,normal,Yes,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,33,low,13,low,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,27,high,9,high,No,Stable,No
+55,Male,Kidney Stones,Lithotripsy,28,normal,14,normal,Yes,Recovered,No
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,29,high,7,low,No,Stable,Yes
+55,Female,Heart Disease,Angioplasty,30,low,30,normal,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,28,normal,5,high,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,26,high,10,low,No,Recovered,No
+78,Male,Stroke,CT Scan and Medication,33,normal,16,high,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,35,low,9,normal,No,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,27,high,11,low,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,29,normal,13,normal,Yes,Recovered,No
+45,Male,Fractured Leg,Cast and Physical Therapy,31,low,6,high,No,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,33,normal,0,normal,Yes,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,26,high,29,low,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,27,low,5,high,Yes,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,34,high,6,normal,Yes,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,28,normal,11,low,No,Recovered,No
+50,Male,Kidney Stones,Lithotripsy,29,normal,4,high,Yes,Recovered,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,30,low,5,normal,No,Stable,No
+48,Female,Heart Disease,Angioplasty,31,high,11,low,Yes,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,29,normal,13,normal,Yes,Stable,No
+44,Female,Fractured Arm,X-Ray and Splint,27,low,7,high,No,Recovered,No
+70,Male,Stroke,CT Scan and Medication,34,normal,12,high,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,36,high,12,low,No,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,28,low,5,normal,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,30,normal,7,high,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,32,high,6,low,No,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,34,normal,4,high,Yes,Recovered,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,27,low,5,normal,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,28,high,29,normal,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,35,normal,11,low,Yes,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,29,low,9,high,No,Recovered,No
+55,Male,Kidney Stones,Lithotripsy,30,high,30,normal,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,31,normal,12,low,No,Stable,No
+55,Female,Heart Disease,Angioplasty,32,low,5,normal,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,30,normal,11,high,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,28,high,25,low,No,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,35,low,14,high,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,37,normal,14,normal,No,Recovered,Yes
+44,Male,Hypertension,Medication and Counseling,29,high,10,low,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,31,normal,9,normal,Yes,Recovered,No
+45,Male,Fractured Leg,Cast and Physical Therapy,33,low,9,high,No,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,35,high,10,low,Yes,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,28,normal,13,high,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,29,low,13,normal,Yes,Stable,No
+35,Female,Childbirth,Delivery and Postnatal Care,30,high,11,high,Yes,Recovered,No
+50,Male,Kidney Stones,Lithotripsy,31,normal,23,low,No,Stable,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,32,normal,10,normal,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,33,low,4,high,No,Recovered,No
+65,Male,Diabetes,Insulin Therapy,31,normal,12,normal,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,29,high,15,low,Yes,Stable,Yes
+70,Male,Stroke,CT Scan and Medication,36,high,6,high,No,Stable,No
+55,Male,Cancer,Surgery and Chemotherapy,38,low,6,normal,Yes,Stable,No
+68,Male,Hypertension,Medication and Counseling,30,normal,15,low,No,Stable,No
+45,Female,Appendicitis,Appendectomy,32,high,11,normal,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,34,low,22,high,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,36,high,14,low,No,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,29,normal,10,normal,Yes,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,30,low,10,high,No,Recovered,No
+58,Male,Prostate Cancer,Radiation Therapy,37,normal,11,normal,Yes,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,31,high,11,low,Yes,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,32,high,11,high,No,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,33,normal,10,normal,Yes,Stable,Yes
+44,Female,Heart Disease,Angioplasty,34,low,11,low,No,Recovered,No
+62,Male,Diabetes,Insulin Therapy,32,high,9,high,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,30,normal,15,normal,Yes,Recovered,No
+78,Male,Stroke,CT Scan and Medication,37,normal,11,low,No,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,39,low,14,normal,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,31,high,4,high,No,Stable,No
+60,Female,Appendicitis,Appendectomy,33,normal,14,high,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,35,low,10,low,Yes,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,37,high,8,normal,No,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,30,normal,8,high,Yes,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,31,low,11,low,No,Stable,No
+67,Male,Prostate Cancer,Radiation Therapy,38,normal,12,high,Yes,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,32,high,13,normal,Yes,Recovered,No
+50,Male,Kidney Stones,Lithotripsy,33,normal,10,normal,No,Recovered,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,34,low,29,low,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,35,high,11,high,No,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,33,normal,30,normal,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,31,normal,13,low,Yes,Recovered,No
+70,Male,Stroke,CT Scan and Medication,38,low,14,high,No,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,40,high,6,normal,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,32,normal,4,low,No,Stable,No
+45,Female,Appendicitis,Appendectomy,34,low,4,normal,Yes,Stable,No
+40,Male,Fractured Leg,Cast and Physical Therapy,36,high,27,high,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,38,normal,4,low,No,Stable,No
+25,Male,Allergic Reaction,Epinephrine Injection,31,low,24,high,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,32,normal,14,normal,No,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,39,high,14,normal,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,33,high,10,low,Yes,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,34,low,7,high,No,Recovered,No
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,35,normal,29,normal,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,36,high,5,low,No,Recovered,No
+33,Male,Diabetes,Insulin Therapy,34,low,5,normal,Yes,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,32,normal,7,high,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,39,high,3,low,No,Recovered,Yes
+53,Female,Cancer,Surgery and Chemotherapy,41,normal,6,high,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,33,low,6,normal,No,Stable,No
+60,Female,Appendicitis,Appendectomy,35,high,7,low,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,37,normal,12,high,Yes,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,39,low,18,normal,No,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,32,normal,6,low,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,33,high,6,high,No,Stable,No
+67,Male,Prostate Cancer,Radiation Therapy,40,low,25,normal,Yes,Stable,Yes
+50,Male,Kidney Stones,Lithotripsy,35,normal,5,normal,Yes,Recovered,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,36,high,12,low,No,Stable,Yes
+48,Female,Heart Disease,Angioplasty,37,normal,12,high,Yes,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,35,low,10,normal,No,Stable,No
+30,Female,Fractured Arm,X-Ray and Splint,33,high,4,low,Yes,Recovered,No
+70,Male,Stroke,CT Scan and Medication,40,normal,6,normal,Yes,Recovered,No
+55,Female,Cancer,Surgery and Chemotherapy,42,low,14,high,No,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,34,high,7,high,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,36,normal,13,low,No,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,38,low,6,normal,Yes,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,40,normal,29,high,Yes,Stable,No
+25,Male,Allergic Reaction,Epinephrine Injection,33,high,15,low,No,Recovered,No
+77,Female,Respiratory Infection,Antibiotics and Rest,34,normal,14,high,Yes,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,41,low,8,normal,No,Stable,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,35,high,11,low,Yes,Stable,No
+55,Male,Kidney Stones,Lithotripsy,36,normal,5,high,Yes,Recovered,No
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,37,low,8,normal,No,Stable,Yes
+55,Female,Heart Disease,Angioplasty,38,high,10,low,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,36,normal,13,normal,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,34,normal,4,high,Yes,Recovered,No
+78,Male,Stroke,CT Scan and Medication,41,low,9,low,Yes,Stable,No
+53,Male,Cancer,Surgery and Chemotherapy,43,high,9,high,No,Recovered,No
+72,Male,Hypertension,Medication and Counseling,35,normal,7,normal,Yes,Stable,No
+60,Female,Appendicitis,Appendectomy,37,low,15,low,No,Recovered,No
+45,Male,Fractured Leg,Cast and Physical Therapy,39,normal,15,normal,Yes,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,41,high,7,high,Yes,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,34,normal,13,normal,No,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,35,low,3,low,Yes,Stable,No
+67,Male,Prostate Cancer,Radiation Therapy,42,high,3,high,No,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,36,normal,11,normal,Yes,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,37,low,12,low,Yes,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,38,normal,11,high,No,Stable,No
+48,Female,Heart Disease,Angioplasty,39,high,14,normal,Yes,Stable,Yes
+65,Male,Diabetes,Insulin Therapy,37,high,4,normal,No,Stable,No
+30,Female,Fractured Arm,X-Ray and Splint,35,low,11,low,Yes,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,42,normal,6,high,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,44,high,15,normal,No,Recovered,No
+68,Male,Hypertension,Medication and Counseling,36,low,7,low,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,38,high,5,high,No,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,40,normal,8,normal,Yes,Recovered,Yes
+88,Female,Heart Attack,Cardiac Catheterization,42,low,13,low,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,35,normal,13,normal,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,36,high,4,high,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,43,normal,2,normal,No,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,37,low,4,low,Yes,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,38,high,14,high,Yes,Recovered,No
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,39,normal,7,normal,No,Recovered,No
+55,Female,Heart Disease,Angioplasty,40,low,9,low,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,38,high,10,normal,No,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,36,normal,26,high,Yes,Recovered,No
+78,Male,Stroke,CT Scan and Medication,43,normal,14,low,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,45,low,11,high,No,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,38,high,7,normal,Yes,Recovered,No
+60,Female,Appendicitis,Appendectomy,39,normal,15,high,No,Stable,No
+45,Male,Fractured Leg,Cast and Physical Therapy,41,normal,7,low,Yes,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,43,low,9,normal,Yes,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,36,normal,10,high,No,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,37,high,11,low,Yes,Stable,No
+67,Male,Prostate Cancer,Radiation Therapy,44,high,5,normal,No,Recovered,No
+35,Female,Childbirth,Delivery and Postnatal Care,38,low,15,high,Yes,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,40,high,7,normal,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,41,normal,12,low,No,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,39,normal,11,high,Yes,Stable,Yes
+30,Male,Fractured Arm,X-Ray and Splint,37,low,13,normal,No,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,44,high,11,low,Yes,Stable,No
+55,Female,Cancer,Surgery and Chemotherapy,46,normal,30,normal,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,40,low,4,high,No,Stable,Yes
+45,Female,Appendicitis,Appendectomy,42,high,12,low,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,42,normal,3,high,No,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,44,low,12,normal,Yes,Stable,No
+44,Male,Allergic Reaction,Epinephrine Injection,37,normal,14,low,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,38,high,9,high,No,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,45,normal,12,normal,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,39,low,6,normal,No,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,40,high,13,low,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,41,normal,14,normal,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,42,low,4,high,No,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,40,high,6,low,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,38,normal,15,high,No,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,45,low,4,normal,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,47,normal,9,low,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,41,high,16,high,No,Stable,Yes
+60,Female,Appendicitis,Appendectomy,43,high,9,normal,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,43,low,4,low,No,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,45,normal,15,normal,Yes,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,38,high,4,high,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,39,low,12,low,No,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,46,normal,4,high,Yes,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,40,high,12,normal,No,Stable,Yes
+50,Male,Kidney Stones,Lithotripsy,41,normal,15,high,Yes,Stable,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,42,low,4,low,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,43,high,6,normal,No,Recovered,No
+65,Male,Diabetes,Insulin Therapy,41,normal,24,high,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,39,low,11,normal,No,Recovered,No
+70,Male,Stroke,CT Scan and Medication,46,high,11,low,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,48,normal,11,high,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,42,low,4,normal,No,Stable,No
+45,Female,Appendicitis,Appendectomy,44,normal,11,low,Yes,Stable,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,44,high,5,high,No,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,46,normal,4,normal,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,39,low,4,low,Yes,Stable,Yes
+52,Male,Respiratory Infection,Antibiotics and Rest,40,high,14,normal,No,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,47,normal,3,high,Yes,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,41,low,14,normal,No,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,42,high,3,low,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,43,normal,13,high,Yes,Stable,No
+55,Female,Heart Disease,Angioplasty,44,high,7,normal,No,Recovered,Yes
+55,Male,Diabetes,Insulin Therapy,42,low,7,low,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,40,normal,11,high,No,Recovered,No
+78,Male,Stroke,CT Scan and Medication,47,high,10,normal,Yes,Stable,No
+53,Female,Cancer,Surgery and Chemotherapy,49,normal,14,low,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,43,low,10,normal,No,Stable,Yes
+60,Female,Appendicitis,Appendectomy,45,high,13,high,Yes,Recovered,No
+45,Male,Fractured Leg,Cast and Physical Therapy,45,normal,4,low,No,Recovered,Yes
+75,Male,Heart Attack,Cardiac Catheterization,47,low,6,high,Yes,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,40,normal,3,normal,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,41,high,7,low,No,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,48,high,9,high,Yes,Recovered,No
+35,Female,Childbirth,Delivery and Postnatal Care,42,normal,15,normal,No,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,43,low,16,low,Yes,Recovered,Yes
+48,Female,Heart Disease,Angioplasty,45,high,12,high,Yes,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,43,normal,7,normal,No,Stable,No
+30,Female,Fractured Arm,X-Ray and Splint,41,low,3,normal,Yes,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,48,normal,8,low,No,Stable,No
+55,Female,Cancer,Surgery and Chemotherapy,50,high,11,normal,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,44,low,9,high,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,46,high,3,low,No,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,46,normal,4,high,Yes,Recovered,Yes
+78,Male,Heart Attack,Cardiac Catheterization,48,normal,5,normal,No,Stable,No
+25,Male,Allergic Reaction,Epinephrine Injection,41,high,15,low,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,42,low,15,high,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,49,normal,9,normal,No,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,43,high,13,low,Yes,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,44,low,8,high,No,Recovered,No
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,45,high,6,normal,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,46,normal,0,normal,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,44,normal,8,low,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,42,low,7,high,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,49,high,9,normal,No,Stable,No
+53,Female,Cancer,Surgery and Chemotherapy,51,normal,10,low,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,45,low,7,normal,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,47,normal,13,high,No,Recovered,No
+45,Male,Fractured Leg,Cast and Physical Therapy,47,high,6,normal,Yes,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,49,low,4,low,No,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,42,high,15,high,Yes,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,43,normal,14,normal,Yes,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,50,normal,10,low,No,Recovered,No
+35,Female,Childbirth,Delivery and Postnatal Care,44,high,7,high,Yes,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,45,low,10,normal,No,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,46,normal,4,low,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,47,high,9,normal,Yes,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,45,low,11,high,No,Stable,No
+30,Female,Fractured Arm,X-Ray and Splint,43,normal,11,normal,Yes,Recovered,Yes
+77,Male,Stroke,CT Scan and Medication,50,high,21,low,No,Stable,No
+55,Female,Cancer,Surgery and Chemotherapy,52,normal,6,high,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,46,low,12,normal,Yes,Recovered,Yes
+45,Female,Appendicitis,Appendectomy,48,high,25,low,No,Stable,No
+40,Male,Fractured Leg,Cast and Physical Therapy,48,normal,7,normal,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,50,low,18,high,No,Stable,No
+25,Male,Allergic Reaction,Epinephrine Injection,43,normal,12,low,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,44,high,14,high,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,51,high,3,normal,No,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,45,normal,6,low,Yes,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,46,low,12,high,No,Recovered,No
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,47,high,3,normal,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,48,normal,28,normal,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,46,low,4,low,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,44,high,13,high,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,51,normal,3,normal,No,Recovered,No
+53,Female,Cancer,Surgery and Chemotherapy,53,normal,7,low,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,47,low,12,normal,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,49,high,13,high,No,Recovered,No
+45,Male,Fractured Leg,Cast and Physical Therapy,49,normal,15,normal,Yes,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,51,low,14,low,No,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,44,normal,8,high,Yes,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,45,high,6,normal,Yes,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,52,normal,13,high,No,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,46,low,3,low,Yes,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,47,high,2,normal,No,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,48,normal,6,high,Yes,Stable,Yes
+65,Male,Diabetes,Insulin Therapy,47,low,15,low,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,45,normal,3,high,No,Recovered,No
+70,Male,Stroke,CT Scan and Medication,52,high,14,normal,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,54,high,11,low,No,Recovered,No
+68,Male,Hypertension,Medication and Counseling,48,low,9,high,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,50,normal,11,normal,Yes,Recovered,Yes
+77,Male,Fractured Leg,Cast and Physical Therapy,50,high,3,low,No,Recovered,No
+78,Male,Heart Attack,Cardiac Catheterization,52,low,11,high,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,45,normal,6,normal,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,46,high,10,low,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,53,normal,6,normal,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,47,low,7,high,No,Recovered,No
+55,Male,Kidney Stones,Lithotripsy,48,high,14,high,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,49,normal,5,low,No,Stable,No
+55,Female,Heart Disease,Angioplasty,50,low,0,normal,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,48,normal,25,high,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,46,high,7,low,No,Recovered,No
+78,Male,Stroke,CT Scan and Medication,53,low,14,high,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,55,high,11,normal,No,Recovered,No
+72,Male,Hypertension,Medication and Counseling,49,normal,23,low,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,51,low,4,high,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,51,high,30,normal,No,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,53,normal,21,low,Yes,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,46,normal,6,normal,No,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,47,low,9,high,Yes,Stable,No
+67,Male,Prostate Cancer,Radiation Therapy,54,high,8,low,Yes,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,48,normal,9,high,No,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,49,low,12,normal,Yes,Recovered,Yes
+60,Male,Osteoarthritis,Physical Therapy and Pain Management,50,normal,3,low,No,Stable,No
+48,Male,Heart Disease,Angioplasty,51,high,14,high,Yes,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,49,high,10,normal,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,47,low,10,low,No,Recovered,No
+70,Male,Stroke,CT Scan and Medication,54,high,11,high,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,56,normal,11,normal,No,Recovered,No
+68,Male,Hypertension,Medication and Counseling,50,low,20,normal,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,52,normal,15,low,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,52,high,15,high,No,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,54,normal,15,normal,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,47,low,15,low,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,48,high,7,normal,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,55,normal,12,high,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,49,low,4,high,No,Stable,No
+44,Male,Kidney Stones,Lithotripsy,50,normal,15,low,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,51,high,9,high,No,Stable,No
+55,Female,Heart Disease,Angioplasty,52,normal,9,normal,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,50,low,4,low,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,48,high,3,normal,No,Recovered,No
+78,Male,Stroke,CT Scan and Medication,55,normal,7,high,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,57,low,22,low,No,Recovered,No
+72,Male,Hypertension,Medication and Counseling,51,high,13,high,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,53,normal,15,normal,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,53,normal,4,high,No,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,55,low,3,low,Yes,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,48,high,13,normal,No,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,49,normal,4,high,Yes,Stable,No
+67,Male,Prostate Cancer,Radiation Therapy,56,low,22,low,Yes,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,50,normal,10,normal,No,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,51,high,11,high,Yes,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,52,low,5,normal,No,Stable,No
+48,Female,Heart Disease,Angioplasty,53,high,4,low,Yes,Recovered,Yes
+30,Female,Fractured Arm,X-Ray and Splint,49,normal,10,high,Yes,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,56,high,14,normal,No,Stable,No
+55,Female,Cancer,Surgery and Chemotherapy,58,low,15,low,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,52,normal,15,normal,No,Stable,No
+45,Female,Appendicitis,Appendectomy,54,high,11,high,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,54,normal,10,low,Yes,Stable,Yes
+78,Female,Heart Attack,Cardiac Catheterization,56,low,9,high,No,Stable,No
+25,Male,Allergic Reaction,Epinephrine Injection,49,high,15,normal,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,50,normal,6,normal,No,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,57,low,6,low,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,51,normal,10,high,Yes,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,52,high,23,normal,No,Recovered,No
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,53,high,3,low,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,54,normal,6,normal,No,Recovered,No
+62,Male,Diabetes,Insulin Therapy,52,low,15,high,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,50,high,8,low,Yes,Recovered,Yes
+33,Male,Stroke,CT Scan and Medication,57,normal,8,high,No,Stable,No
+53,Female,Cancer,Surgery and Chemotherapy,59,low,15,normal,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,53,high,13,low,No,Stable,Yes
+60,Female,Appendicitis,Appendectomy,55,normal,4,high,Yes,Recovered,No
+45,Male,Fractured Leg,Cast and Physical Therapy,55,low,29,normal,Yes,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,57,normal,10,low,No,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,50,high,13,high,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,51,normal,14,normal,No,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,58,low,5,low,Yes,Stable,No
+35,Female,Childbirth,Delivery and Postnatal Care,52,high,25,normal,Yes,Stable,Yes
+50,Male,Kidney Stones,Lithotripsy,53,normal,9,high,No,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,54,low,11,normal,Yes,Stable,No
+48,Female,Heart Disease,Angioplasty,55,high,0,low,No,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,53,normal,14,high,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,51,normal,11,normal,Yes,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,58,low,3,low,No,Recovered,No
+55,Female,Cancer,Surgery and Chemotherapy,60,high,4,high,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,54,normal,13,normal,No,Stable,No
+45,Female,Appendicitis,Appendectomy,56,low,5,normal,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,56,normal,25,low,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,58,high,11,normal,No,Stable,No
+25,Male,Allergic Reaction,Epinephrine Injection,51,normal,13,high,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,52,low,24,high,No,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,59,high,27,low,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,53,normal,3,normal,Yes,Stable,Yes
+55,Male,Kidney Stones,Lithotripsy,54,low,9,high,No,Recovered,No
+65,Male,Osteoarthritis,Physical Therapy and Pain Management,55,high,5,low,Yes,Stable,Yes
+55,Male,Heart Disease,Angioplasty,56,normal,27,high,No,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,54,low,4,normal,Yes,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,52,normal,7,low,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,59,high,15,high,No,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,61,high,7,normal,Yes,Recovered,No
+72,Male,Hypertension,Medication and Counseling,55,low,15,normal,No,Stable,Yes
+60,Female,Appendicitis,Appendectomy,57,normal,11,low,Yes,Recovered,No
+45,Male,Fractured Leg,Cast and Physical Therapy,57,high,6,high,Yes,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,59,low,12,normal,No,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,52,normal,5,low,Yes,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,53,high,15,normal,No,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,60,low,11,high,Yes,Recovered,No
+35,Female,Childbirth,Delivery and Postnatal Care,54,normal,10,low,Yes,Stable,Yes
+50,Male,Kidney Stones,Lithotripsy,55,high,12,high,No,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,56,normal,14,normal,Yes,Stable,No
+48,Female,Heart Disease,Angioplasty,57,low,8,low,No,Recovered,Yes
+65,Male,Diabetes,Insulin Therapy,55,high,7,high,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,53,normal,12,normal,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,62,low,14,normal,No,Recovered,No
+68,Male,Hypertension,Medication and Counseling,56,high,25,low,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,58,normal,14,high,No,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,58,normal,11,normal,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,60,low,15,low,Yes,Stable,Yes
+55,Male,Allergic Reaction,Epinephrine Injection,53,normal,5,high,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,54,high,14,normal,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,61,low,14,low,No,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,55,high,14,normal,Yes,Stable,Yes
+55,Male,Kidney Stones,Lithotripsy,56,normal,11,high,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,57,low,15,high,No,Stable,No
+55,Female,Heart Disease,Angioplasty,58,high,0,low,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,56,normal,11,normal,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,54,low,4,high,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,61,high,15,low,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,63,normal,11,high,No,Recovered,No
+72,Male,Hypertension,Medication and Counseling,57,high,9,normal,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,59,low,15,normal,No,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,59,normal,10,low,Yes,Stable,Yes
+75,Female,Heart Attack,Cardiac Catheterization,61,high,21,high,Yes,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,54,normal,12,normal,No,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,55,low,13,low,Yes,Stable,No
+67,Male,Prostate Cancer,Radiation Therapy,62,high,11,high,No,Stable,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,56,normal,27,normal,Yes,Stable,Yes
+50,Male,Kidney Stones,Lithotripsy,57,low,12,low,Yes,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,58,normal,14,normal,No,Stable,Yes
+48,Female,Heart Disease,Angioplasty,59,high,4,high,Yes,Stable,No
+65,Male,Diabetes,Insulin Therapy,57,low,13,low,No,Stable,No
+30,Female,Fractured Arm,X-Ray and Splint,55,high,10,high,Yes,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,62,normal,13,normal,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,64,normal,8,high,No,Recovered,No
+68,Male,Hypertension,Medication and Counseling,58,low,4,low,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,60,high,5,normal,No,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,60,normal,8,high,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,62,low,11,low,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,55,high,5,normal,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,56,normal,5,high,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,63,low,26,normal,No,Stable,No
+32,Female,Childbirth,Delivery and Postnatal Care,57,normal,6,low,Yes,Stable,Yes
+55,Male,Kidney Stones,Lithotripsy,58,high,18,high,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,59,high,9,normal,No,Stable,No
+55,Female,Heart Disease,Angioplasty,60,low,7,low,Yes,Recovered,Yes
+45,Male,Diabetes,Insulin Therapy,58,high,12,normal,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,56,normal,23,high,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,63,low,10,high,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,65,high,4,low,No,Recovered,No
+72,Male,Hypertension,Medication and Counseling,59,normal,9,normal,Yes,Stable,Yes
+60,Female,Appendicitis,Appendectomy,61,normal,8,high,No,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,61,low,9,low,Yes,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,63,high,8,normal,Yes,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,56,normal,6,high,No,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,57,low,16,low,Yes,Stable,No
+67,Male,Prostate Cancer,Radiation Therapy,64,normal,6,high,No,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,58,high,7,normal,Yes,Recovered,No
+50,Male,Kidney Stones,Lithotripsy,59,normal,14,low,Yes,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,60,low,13,high,No,Stable,Yes
+48,Female,Heart Disease,Angioplasty,61,high,14,normal,Yes,Recovered,No
+65,Male,Diabetes,Insulin Therapy,59,normal,12,low,No,Stable,No
+30,Female,Fractured Arm,X-Ray and Splint,57,low,13,high,Yes,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,64,normal,14,normal,Yes,Stable,Yes
+68,Male,Hypertension,Medication and Counseling,60,high,5,low,No,Stable,No
+45,Female,Appendicitis,Appendectomy,62,low,8,normal,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,62,high,6,high,No,Stable,No
+78,Female,Heart Attack,Cardiac Catheterization,64,normal,15,normal,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,57,high,11,low,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,58,low,5,high,No,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,65,normal,3,normal,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,59,high,8,low,No,Recovered,No
+55,Male,Kidney Stones,Lithotripsy,60,normal,3,high,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,61,low,18,normal,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,62,high,16,normal,No,Recovered,No
+62,Male,Diabetes,Insulin Therapy,60,normal,12,low,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,58,low,3,normal,No,Recovered,No
+78,Male,Stroke,CT Scan and Medication,65,normal,9,high,Yes,Stable,No
+53,Female,Cancer,Surgery and Chemotherapy,67,high,8,low,Yes,Recovered,Yes
+78,Male,Hypertension,Medication and Counseling,61,low,14,high,No,Stable,No
+60,Female,Appendicitis,Appendectomy,63,high,3,normal,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,63,normal,20,normal,No,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,65,normal,9,low,Yes,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,58,low,7,high,Yes,Stable,No
+52,Female,Respiratory Infection,Antibiotics and Rest,59,high,4,normal,No,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,66,normal,12,low,Yes,Recovered,No
+35,Female,Childbirth,Delivery and Postnatal Care,60,normal,5,high,No,Stable,No
+50,Male,Kidney Stones,Lithotripsy,61,low,15,normal,Yes,Recovered,Yes
+60,Male,Osteoarthritis,Physical Therapy and Pain Management,62,normal,3,low,Yes,Stable,Yes
+48,Male,Heart Disease,Angioplasty,63,high,5,normal,No,Recovered,No
+65,Male,Diabetes,Insulin Therapy,61,high,15,high,Yes,Stable,Yes
+30,Male,Fractured Arm,X-Ray and Splint,59,low,9,high,No,Recovered,No
+70,Male,Stroke,CT Scan and Medication,66,high,20,low,Yes,Stable,Yes
+55,Male,Cancer,Surgery and Chemotherapy,68,normal,6,normal,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,62,low,15,high,No,Stable,No
+45,Male,Appendicitis,Appendectomy,64,normal,8,low,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,64,high,5,normal,No,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,66,low,11,high,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,59,high,3,normal,Yes,Stable,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,60,normal,5,low,No,Stable,No
+58,Male,Prostate Cancer,Radiation Therapy,67,low,13,high,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,61,high,10,normal,No,Stable,No
+55,Male,Kidney Stones,Lithotripsy,62,normal,14,low,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,63,low,6,high,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,64,high,13,normal,No,Recovered,No
+62,Male,Diabetes,Insulin Therapy,62,normal,6,normal,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,60,low,3,low,No,Recovered,No
+78,Male,Stroke,CT Scan and Medication,67,normal,17,high,Yes,Stable,No
+53,Female,Cancer,Surgery and Chemotherapy,69,high,13,normal,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,63,normal,11,low,No,Stable,No
+60,Female,Appendicitis,Appendectomy,65,low,10,normal,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,65,high,13,high,No,Recovered,Yes
+75,Female,Heart Attack,Cardiac Catheterization,67,normal,12,low,Yes,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,60,low,11,high,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,61,high,14,normal,No,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,68,normal,6,high,Yes,Recovered,No
+35,Female,Childbirth,Delivery and Postnatal Care,62,normal,15,low,No,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,63,low,29,normal,Yes,Recovered,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,64,high,16,high,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,65,normal,7,normal,No,Recovered,No
+65,Male,Diabetes,Insulin Therapy,63,low,6,low,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,61,high,14,high,No,Recovered,Yes
+70,Male,Stroke,CT Scan and Medication,68,normal,13,normal,Yes,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,70,low,12,low,Yes,Recovered,Yes
+45,Female,Appendicitis,Appendectomy,66,normal,9,normal,No,Stable,No
+40,Male,Fractured Leg,Cast and Physical Therapy,66,high,7,high,Yes,Recovered,Yes
+78,Female,Heart Attack,Cardiac Catheterization,68,normal,10,low,No,Stable,No
+25,Male,Allergic Reaction,Epinephrine Injection,61,low,8,normal,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,62,high,14,high,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,69,normal,14,high,No,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,63,high,20,low,Yes,Stable,Yes
+55,Male,Kidney Stones,Lithotripsy,64,low,10,normal,No,Stable,No
+34,Female,Osteoarthritis,Physical Therapy and Pain Management,65,normal,13,high,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,66,high,5,low,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,64,low,3,high,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,62,high,5,normal,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,69,normal,6,normal,No,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,71,low,12,low,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,65,normal,9,high,Yes,Stable,No
+60,Female,Appendicitis,Appendectomy,67,high,10,normal,No,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,67,high,9,low,Yes,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,69,low,7,normal,No,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,62,high,10,high,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,63,normal,30,low,Yes,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,70,low,15,high,No,Recovered,No
+35,Female,Childbirth,Delivery and Postnatal Care,64,normal,27,normal,Yes,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,65,high,11,normal,No,Recovered,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,66,normal,6,high,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,67,low,4,low,Yes,Recovered,No
+65,Male,Diabetes,Insulin Therapy,65,high,13,normal,No,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,63,normal,14,high,Yes,Recovered,No
+70,Male,Stroke,CT Scan and Medication,70,normal,7,low,No,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,72,low,12,normal,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,66,high,16,high,Yes,Stable,Yes
+45,Female,Appendicitis,Appendectomy,68,normal,6,normal,No,Recovered,No
+40,Male,Fractured Leg,Cast and Physical Therapy,68,low,12,low,Yes,Recovered,Yes
+78,Male,Heart Attack,Cardiac Catheterization,70,normal,7,high,No,Stable,No
+25,Male,Allergic Reaction,Epinephrine Injection,63,high,5,normal,Yes,Recovered,Yes
+52,Male,Respiratory Infection,Antibiotics and Rest,64,high,12,low,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,71,low,11,normal,No,Recovered,No
+32,Female,Childbirth,Delivery and Postnatal Care,65,high,28,high,Yes,Recovered,Yes
+55,Male,Kidney Stones,Lithotripsy,66,normal,16,normal,No,Recovered,No
+77,Male,Osteoarthritis,Physical Therapy and Pain Management,67,normal,9,low,Yes,Stable,Yes
+55,Female,Heart Disease,Angioplasty,68,low,0,high,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,66,high,3,normal,No,Stable,No
+35,Female,Fractured Arm,X-Ray and Splint,64,normal,9,normal,Yes,Recovered,Yes
+78,Male,Stroke,CT Scan and Medication,71,low,7,low,No,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,73,high,13,high,Yes,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,67,normal,9,normal,Yes,Stable,No
+60,Female,Appendicitis,Appendectomy,69,normal,14,low,No,Stable,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,69,low,7,normal,Yes,Recovered,No
+75,Female,Heart Attack,Cardiac Catheterization,71,high,30,high,No,Stable,No
+28,Male,Allergic Reaction,Epinephrine Injection,64,normal,5,low,Yes,Recovered,Yes
+52,Female,Respiratory Infection,Antibiotics and Rest,65,low,10,high,Yes,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,72,normal,16,normal,No,Stable,No
+35,Female,Childbirth,Delivery and Postnatal Care,66,high,9,high,Yes,Recovered,Yes
+50,Male,Kidney Stones,Lithotripsy,67,high,11,low,No,Stable,No
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,68,low,13,normal,Yes,Stable,Yes
+48,Female,Heart Disease,Angioplasty,69,normal,6,high,Yes,Recovered,No
+65,Male,Diabetes,Insulin Therapy,67,high,0,normal,No,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,65,low,29,low,Yes,Recovered,No
+70,Male,Stroke,CT Scan and Medication,72,normal,5,high,No,Stable,Yes
+55,Female,Cancer,Surgery and Chemotherapy,74,high,6,normal,Yes,Recovered,Yes
+68,Male,Hypertension,Medication and Counseling,68,normal,11,low,Yes,Stable,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,70,low,4,high,No,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,72,high,8,normal,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,65,normal,24,low,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,66,low,14,normal,Yes,Stable,Yes
+58,Male,Prostate Cancer,Radiation Therapy,73,normal,24,high,Yes,Recovered,Yes
+32,Female,Childbirth,Delivery and Postnatal Care,67,high,15,normal,No,Recovered,No
+55,Male,Kidney Stones,Lithotripsy,68,normal,8,low,Yes,Recovered,Yes
+65,Female,Osteoarthritis,Physical Therapy and Pain Management,69,low,26,high,No,Stable,No
+55,Female,Heart Disease,Angioplasty,70,high,8,normal,Yes,Recovered,Yes
+62,Male,Diabetes,Insulin Therapy,68,normal,24,low,Yes,Stable,Yes
+35,Female,Fractured Arm,X-Ray and Splint,66,low,4,normal,No,Recovered,No
+78,Male,Stroke,CT Scan and Medication,73,normal,7,high,Yes,Stable,Yes
+53,Female,Cancer,Surgery and Chemotherapy,75,high,10,high,No,Recovered,Yes
+72,Male,Hypertension,Medication and Counseling,69,low,14,low,Yes,Stable,No
+60,Female,Appendicitis,Appendectomy,71,high,12,normal,Yes,Recovered,Yes
+45,Male,Fractured Leg,Cast and Physical Therapy,71,normal,15,high,No,Stable,No
+75,Female,Heart Attack,Cardiac Catheterization,73,low,15,normal,Yes,Stable,Yes
+28,Male,Allergic Reaction,Epinephrine Injection,67,high,11,low,No,Recovered,No
+52,Female,Respiratory Infection,Antibiotics and Rest,68,normal,13,normal,Yes,Stable,Yes
+67,Male,Prostate Cancer,Radiation Therapy,74,low,6,high,Yes,Recovered,Yes
+35,Female,Childbirth,Delivery and Postnatal Care,68,normal,9,low,No,Stable,No
+50,Male,Kidney Stones,Lithotripsy,69,high,13,high,Yes,Recovered,Yes
+60,Female,Osteoarthritis,Physical Therapy and Pain Management,70,normal,14,normal,No,Stable,No
+48,Female,Heart Disease,Angioplasty,71,low,3,normal,Yes,Stable,Yes
+44,Male,Diabetes,Insulin Therapy,69,high,11,high,Yes,Stable,Yes
+30,Female,Fractured Arm,X-Ray and Splint,67,normal,4,low,No,Recovered,No
+70,Male,Stroke,CT Scan and Medication,74,low,5,normal,Yes,Stable,Yes
+55,Male,Cancer,Surgery and Chemotherapy,76,high,9,high,No,Recovered,No
+68,Male,Hypertension,Medication and Counseling,70,normal,15,low,Yes,Stable,Yes
+45,Male,Appendicitis,Appendectomy,72,low,11,normal,Yes,Recovered,Yes
+40,Male,Fractured Leg,Cast and Physical Therapy,72,normal,12,high,No,Recovered,No
+78,Female,Heart Attack,Cardiac Catheterization,74,low,4,normal,Yes,Stable,Yes
+25,Male,Allergic Reaction,Epinephrine Injection,68,low,3,normal,No,Recovered,No
+88,female,cancer,surgery,19,high,34,low,No,Stable,Yes
+45,female,Childbirth,Delivery and Postnatal Care,25,high,19,low,No,Stable,No
+78,female,cancer,surgery,24,high,36,low,No,Stable,Yes
+23,male,Fractured Leg,Cast and Physical Therapy,5,normal,2,normal,No,Recovered,No
+65,male,diabetes,surgery,3,high,0,high,No,Recovered,No
+66,male,diabetes,surgery,3,high,0,high,No,Recovered,No
+33,male,Fractured Leg,X-Ray and Splint,12,normal,2,high,No,Stable,No
+77,female,Allergic Reaction,Epinephrine Injection,12,high,27,low,No,Stable,No
+17,female,Fractured Leg,Cast and Physical Therapy,5,high,0,low,No,Stable,No
+79,male,Stroke,Angioplasty,15,high,32,low,Yes,Stable,Yes
+12,male,diabetes,surgery,1,high,1,high,No,Recovered,No
+68,male,Appendicitis,Appendectomy,17,high,39,high,Yes,Stable,Yes
